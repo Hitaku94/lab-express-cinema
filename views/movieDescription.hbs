@@ -1,0 +1,22 @@
+<div class="container">
+<div class="imageContainer">
+<img src={{data.image}}>
+</div>
+<div class="container-description">
+<a href="/movies">Go back</a>
+<h2>{{data.title}}</h2>
+<h3>{{data.director}}</h3>
+<h4>Stars</h4>
+<ul>
+    {{#each data.stars}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
+<p>{{data.description}}</p>
+<div class="container-time">
+{{#each data.showtimes}}
+<p>{{this}}  ||  </p>
+{{/each}}
+</div>
+</div>
+</div>

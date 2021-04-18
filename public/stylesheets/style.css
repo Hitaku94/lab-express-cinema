@@ -1,8 +1,98 @@
+html {
+  height: 100%;
+}
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
+  text-align: center;
 }
 
 a {
   color: #00B7FF;
+}
+
+.bg {
+  background-image: url("../images/cinema.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.headline {
+  display:inline-block;
+  justify-content: flex-end;
+  padding-left: 60%;
+  padding-top : 50px;
+}
+
+h1 {
+  color: white;
+
+  font-size: 125px;
+}
+
+.btn {
+  height: 60px;
+  width: 225px;
+  border-radius: 30px;
+  font-size: 20px;
+  color:rgb(21, 53, 53);
+}
+
+.blockMovies {
+  display:inline-flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 50px;
+
+}
+
+.listMovies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 50px 5px 50px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2{
+  font-weight: bold;
+}
+
+.container-description {
+  display: inline-flex;
+  flex-direction: column;
+  align-items:flex-start;
+  width: 400px;
+  text-align:left;
+
+}
+
+.imageContainer {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.container-time {
+  display: inline-flex;
+  flex-direction: row;
+  align-items:flex-start;
+
+}
+
+.container {
+  display:inline-flex;
+  margin: auto;
+  justify-content:flex-start;
+  padding-top: 50px;
+
 }

@@ -1,0 +1,20 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">Home</a>
+</nav>
+<br>
+<h2>Movies List</h2>
+<br>
+<p>Click "see more" for more information about the movie!</p>
+<br>
+{{#each data}}
+<div class="blockMovies">
+<div class="listMovies">
+    
+    <img src={{this.image}}>
+    <span class="title">{{this.title}}</span>
+    <a href="/movies/{{this.id}}">See More</a>
+    <br>
+    </ul>
+</div>
+</div>
+{{/each}}

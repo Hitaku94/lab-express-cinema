@@ -136,6 +136,7 @@ const movies = [
 // Add here the script that will be run to actually seed the database (feel free to refer to the previous lesson)
 
 // ... your code here
+node seeds/movies.seed.js
 ```
 
 ### Iteration 2 | The Home Page
